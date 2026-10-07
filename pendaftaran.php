@@ -76,13 +76,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "ERROR! pastikan alasan telah terisi! <br> ";
     }
 }
-echo "Nama : $nama <br>";
-echo "NIS : $nis <br>";
-echo "Email : $email <br>";
-echo "Jurusan : $jurusan <br>";
-echo "Perusahaan : $perusahaan <br>";
-echo "Kompetensi : $kompetensi <br>";
-echo "Alasan : $alasan <br>";
+else {
+    echo "Nama : $nama <br>";
+    echo "NIS : $nis <br>";
+    echo "Email : $email <br>";
+    echo "Jurusan : $jurusan <br>";
+    echo "Perusahaan : $perusahaan <br>";
+    echo "Kompetensi : $kompetensi <br>";
+    echo "Alasan : $alasan <br>";
+}
+
 
 ?>
 
